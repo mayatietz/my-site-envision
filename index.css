@@ -1,0 +1,72 @@
+body {
+  background-color: #3A3238; 
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Sofia', cursive;
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #6E4555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #D282A6;
+    color:black;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.subtext {
+    padding-top: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    color:white;
+}
+.thanks {
+    font-family: 'Quicksand', sans-serif;
+    text-align:center;
+    color:white;
+}
+.love {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    color:white;
+}
+
+.interest {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    color:white;
+}
+.learn {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 50px;
+    color:white;
+}
